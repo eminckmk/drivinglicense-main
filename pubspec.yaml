@@ -1,0 +1,48 @@
+name: drivinglicense
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  equatable: ^2.0.5
+  flutter_riverpod: ^2.1.3
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.4.0
+  shared_preferences: ^2.0.18
+  uuid: ^3.0.7
+  fluttertoast: ^8.2.1
+  intl: ^0.18.0
+  percent_indicator: ^4.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: light
+      fonts:
+        - asset: assets/fonts/Gotham/Coco-Sharp-Light-trial.ttf
+
+    - family: bold
+      fonts:
+        - asset: assets/fonts/Gotham/Coco-Sharp-Bold-trial.ttf
+
+    - family: regular
+      fonts:
+        - asset: assets/fonts/Gotham/Coco-Sharp-Regular-trial.ttf
+
